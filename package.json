@@ -1,0 +1,27 @@
+{
+  "name": "test-kvestiks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/styles.scss:css/styles.css",
+    "start": "live-server ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charry-wallaby/test-kvestiks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charry-wallaby/test-kvestiks/issues"
+  },
+  "homepage": "https://github.com/charry-wallaby/test-kvestiks#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квестикс</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header fixed-top">
+        <nav class="py-1 container-xl navbar navbar-expand-lg">
+            <div class="row justify-content-between align-items-center w-100 g-0">
+                <div class="col-auto d-block d-lg-none">
+                    <button class="navbar-toggler collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-auto mx-auto mx-lg-0">
+                    <a class="logo" href="#">
+                        <img class="d-block mx-auto" src="images/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-auto d-block d-lg-none mx-3">
+                    <a class="nav-link" href="#">
+                        <i class="icon icon-person mx-auto"></i>
+                    </a>
+                </div>
+                <div class="col-auto navbar-collapse justify-content-lg-end collapse" id="navbar">
+                    <ul class="navbar-nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                        <li>
+                            <a class="py-1 nav-link text-secondary text-center" href="#">
+                                <i class="icon icon-phone mx-auto"></i>
+                                Контакты
+                            </a>
+                        </li>
+                        <li>
+                            <a class="py-1 nav-link text-secondary text-center" href="#">
+                                <i class="icon icon-book mx-auto"></i>
+                                Блог
+                            </a>
+                        </li>
+                        <li>
+                            <a class="py-1 nav-link text-secondary text-center" href="#">
+                                <i class="icon icon-person mx-auto"></i>
+                                Заказы
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Breadcrumbs -->
+        <section class="breadcrumbs d-none d-lg-block">
+            <div class="container-xl">
+                <div class="row">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="/">Главная</a>
+                            </li>
+                            <li class="breadcrumb-item" aria-current="page">Каталог</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-12 col-lg-9">
+                        <!-- Product card -->
+                        <div class="product__card d-flex flex-column flex-sm-row justify-content-between overflow-hidden mb-4 mb-md-5">
+                            <div class="col-md-6 col-lg-5 order-1 order-sm-0 text-center text-sm-start product__card__info">
+                                <h1 class="text-nowrap position-relative z-2 mb-3">Стрелы Амура, 18+</h1>
+                                <ul class="product__card__tags px-4 px-sm-0 mb-3">
+                                    <li class="product__card__tags-item">квест</li>
+                                    <li class="product__card__tags-item">для 2 человек</li>
+                                    <li class="product__card__tags-item">для дома</li>
+                                    <li class="product__card__tags-item">сложность 7/10</li>
+                                </ul>
+                                <p class="my-0">Романтический квест по поиску подарка для второй половинки: мужа, жены, парня или девушки. Чтобы собрать 7 стрел бога любви Амура и разыскать подарок, игроку нужно выполнить задания древних богов.</p>
+                            </div>
+                            <div class="product__card__image order-0 order-sm-1">
+                                <picture>
+                                    <source media="(min-width: 320px)" srcset="images/product.jpg">
+                                    <source media="(min-width: 992px)" srcset="images/product@2x.jpg">
+                                    <img src="images/product.jpg" alt="Квестикс" class="object-fit-cover img-fluid h-100">
+                                </picture>
+                                <span class="position-absolute z-1 badge">самый популярный</span>
+                            </div>
+                        </div>
+
+                        <!-- Reviews -->
+                         <div class="reviews">
+                            <h3 class="mb-0 mb-sm-4">Отзывы клиентов <sup class="fs-6">182</sup></h3>
+                            <div class="swiper mb-md-4">
+                                <!-- Reviews carousel -->
+                                <div class="reviews__carousel swiper-wrapper">
+                                    <div class="reviews__item swiper-slide">
+                                        <div class="review-card">
+                                            <p class="review-card__date">14 февраля 2024</p>
+                                            <p class="review-card__name fw-semibold mb-2">Константин (12 игроков 36-50 лет)</p>
+                                            <div class="review-card__rating d-flex align-items-center gap-2 mb-3">
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                            </div>
+                                            <h6 class="review-card__title fw-bold">День святого Валентина</h6>
+                                            <p class="review-card__text mb-3 mb-md-5">Понравилось, что вопросы хоть и объединены одной темой, были не похожи друг на друга. Разные страны и эпохи — есть где разгуляться фантазии. И если сначала мы пытались искать правильные ответы, то по ходу игры стало интереснее и смешнее запутать других игроков.</p>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item swiper-slide">
+                                        <div class="review-card">
+                                            <p class="review-card__date">14 февраля 2024</p>
+                                            <p class="review-card__name fw-semibold mb-2">Светлана (2 игрока 36 лет) </p>
+                                            <div class="review-card__rating d-flex align-items-center gap-2 mb-3">
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                            </div>
+                                            <h6 class="review-card__title fw-bold">День Рождения</h6>
+                                            <p class="review-card__text mb-3 mb-md-5">Понравилось, что вопросы хоть и объединены одной темой, были не похожи друг на друга. Разные страны и эпохи — есть где разгуляться фантазии. И если сначала мы пытались искать правильные ответы, то по ходу игры стало интереснее и смешнее запутать других игроков.</p>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item swiper-slide">
+                                        <div class="review-card">
+                                            <p class="review-card__date">14 февраля 2024</p>
+                                            <p class="review-card__name fw-semibold mb-2">Светлана (2 игрока 36 лет) </p>
+                                            <div class="review-card__rating d-flex align-items-center gap-2 mb-3">
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                            </div>
+                                            <h6 class="review-card__title fw-bold">День Рождения</h6>
+                                            <p class="review-card__text mb-3 mb-md-5">Понравилось, что вопросы хоть и объединены одной темой, были не похожи друг на друга. Разные страны и эпохи — есть где разгуляться фантазии. И если сначала мы пытались искать правильные ответы, то по ходу игры стало интереснее и смешнее запутать других игроков.</p>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item swiper-slide">
+                                        <div class="review-card">
+                                            <p class="review-card__date">14 февраля 2024</p>
+                                            <p class="review-card__name fw-semibold mb-2">Константин (12 игроков 36-50 лет)</p>
+                                            <div class="review-card__rating d-flex align-items-center gap-2 mb-3">
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                            </div>
+                                            <h6 class="review-card__title fw-bold">День святого Валентина</h6>
+                                            <p class="review-card__text mb-3 mb-md-5">Понравилось, что вопросы хоть и объединены одной темой, были не похожи друг на друга. Разные страны и эпохи — есть где разгуляться фантазии. И если сначала мы пытались искать правильные ответы, то по ходу игры стало интереснее и смешнее запутать других игроков.</p>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item swiper-slide">
+                                        <div class="review-card">
+                                            <p class="review-card__date">14 февраля 2024</p>
+                                            <p class="review-card__name fw-semibold mb-2">Светлана (2 игрока 36 лет) </p>
+                                            <div class="review-card__rating d-flex align-items-center gap-2 mb-3">
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                            </div>
+                                            <h6 class="review-card__title fw-bold">День Рождения</h6>
+                                            <p class="review-card__text mb-3 mb-md-5">Понравилось, что вопросы хоть и объединены одной темой, были не похожи друг на друга. Разные страны и эпохи — есть где разгуляться фантазии. И если сначала мы пытались искать правильные ответы, то по ходу игры стало интереснее и смешнее запутать других игроков.</p>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item swiper-slide">
+                                        <div class="review-card">
+                                            <p class="review-card__date">14 февраля 2024</p>
+                                            <p class="review-card__name fw-semibold mb-2">Константин (12 игроков 36-50 лет)</p>
+                                            <div class="review-card__rating d-flex align-items-center gap-2 mb-3">
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                            </div>
+                                            <h6 class="review-card__title fw-bold">День святого Валентина</h6>
+                                            <p class="review-card__text mb-3 mb-md-5">Понравилось, что вопросы хоть и объединены одной темой, были не похожи друг на друга. Разные страны и эпохи — есть где разгуляться фантазии. И если сначала мы пытались искать правильные ответы, то по ходу игры стало интереснее и смешнее запутать других игроков.</p>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__item swiper-slide">
+                                        <div class="review-card">
+                                            <p class="review-card__date">14 февраля 2024</p>
+                                            <p class="review-card__name fw-semibold mb-2">Светлана (2 игрока 36 лет) </p>
+                                            <div class="review-card__rating d-flex align-items-center gap-2 mb-3">
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                                <i class="icon icon-star"></i>
+                                            </div>
+                                            <h6 class="review-card__title fw-bold">День Рождения</h6>
+                                            <p class="review-card__text mb-3 mb-md-5">Понравилось, что вопросы хоть и объединены одной темой, были не похожи друг на друга. Разные страны и эпохи — есть где разгуляться фантазии. И если сначала мы пытались искать правильные ответы, то по ходу игры стало интереснее и смешнее запутать других игроков.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination d-md-none"></div>
+                                <div class="swiper-scrollbar w-100 start-0 d-none d-md-block"></div>
+                                <div class="swiper-counter d-md-none">
+                                    <span id="current-slide">1</span>/<span id="total-slides"></span>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-12 col-md-6 d-grid">
+                                    <a href="#" class="btn btn-orange">Смотреть все отзывы</a>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+
+                    <!-- Sidebar -->
+                    <div class="col-12 col-lg-3 sidebar text-center">
+                        <div class="sidebar__card fixed-bottom sticky-lg-top">
+                            <p class="sidebar__card_label d-none d-lg-block mb-2">Принимаем к оплате</p>
+                            <div class="row d-none d-lg-flex align-items-center justify-content-center gap-lg-3 gap-xl-4 mb-4">
+                                <div class="col-auto px-0">
+                                    <img src="images/sber.svg" alt="Sber" class="d-block mx-auto">
+                                </div>
+                                <div class="col-auto px-0">
+                                    <img src="images/mc.svg" alt="MasterCard" class="d-block mx-auto">
+                                </div>
+                                <div class="col-auto px-0">
+                                    <img src="images/visa.svg" alt="Visa" class="d-block mx-auto"> 
+                                </div>
+                                <div class="col-auto px-0">
+                                    <img src="images/mir.svg" alt="MIR" class="d-block mx-auto">
+                                </div>
+                            </div>
+                            <p class="lh-sm d-none d-lg-block">
+                                Я из другой страны — <br/><a class="link-orange" href="#">как оплатить?</a>
+                            </p>
+                            <div class="d-grid">
+                                <button type="button" class="btn btn-orange d-flex align-items-center justify-content-between gap-2">
+                                    <span>Купить квест</span><span>500₽</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
